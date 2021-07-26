@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <!------- bootstrap ------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- -----font awesome----- -->
+    <script src="https://kit.fontawesome.com/44a739177b.js" crossorigin="anonymous"></script>
+    <!-- ------fabicon-------- -->
+    <link rel="shortcut icon" href="images/Facebook_.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- -------------header ----------- -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-1">
+
+            <div class="container-fluid ms-1 me-1 d-flex align-items-center justify-content-betweeen">
+                <div class="d-flex justify-content-betweeen align-items-center ">
+                    <a class="navbar-brand" href="#"><i class="fab fa-facebook fs-1"></i></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarSupportedContent">
+                        <form class="d-flex rounded-pill bg-white align-items-center p-1">
+                            <i class="fas fa-search text-secondary mx-2"></i>
+                            <input type="text" placeholder="Search Facebook" class="border-0 rounded-pill">
+                        </form>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-betweeen" id="navbarSupportedContent ">
+                    <i class="fas fa-user-friends text-light fs-4 mx-5" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Friend Request"></i>
+                    <i class="fas fa-home text-light fs-4 mx-5" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Home"></i>
+                    <i class="fas fa-users text-light fs-4 mx-5" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Groups"></i>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-betweeen" id=" navbarSupportedContent">
+
+                    <p class="fs-6 m-0 px-4 py-1 rounded-pill text-primary bg-white mx-2 fw-bold">Find Friends</p>
+
+                    <i class="fas fa-plus text-light p-2 rounded-circle fs-5 mx-2 bg-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Create"></i>
+                    <i class="fab fa-facebook-messenger text-light fs-5 mx-2 bg-secondary p-2 rounded-circle"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Messenger"></i>
+                    <i class="fas fa-bell text-light fs-5 mx-2 bg-secondary p-2 rounded-circle" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Notification"></i>
+
+                    <div class="dropdown d-flex align-items-center justify-content-end">
+                        <img src=" images/profile-pic.png" class="rounded-circle dropdown-toggle" width="50px"
+                            height="50px" id=" dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+
+                        <ul class="dropdown-menu " style="left: auto;" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!-- ------------main ----------- -->
+    <main>
+        <div class="container-fluid ">
+            <div class="row">
+                <!-- -------left sidebar ------- -->
+
+                <div class="col-lg-3 ps-4 pe-0 position-sticky">
+                    <div class="   d-flex  flex-column  ">
+                        <a class="my-2 text-decoration-none text-dark  ">
+                            <i class="fas fa-heartbeat text-danger fs-4  rounded-circle p-2  me-2"></i>
+                            COVID-19 Information Center
+                        </a>
+                        <a class="my-2 text-decoration-none text-dark ">
+                            <i class="fas fa-user-friends text-info fs-4  rounded-circle p-2 me-2"></i>
+                            Find Friends
+                        </a>
+                        <a class="my-2 text-decoration-none text-dark ">
+                            <i class="fas fa-store text-primary fs-4  rounded-circle p-2 me-2"></i>
+                            Marketplace
+                        </a>
+                        <a class="my-2 text-decoration-none text-dark ">
+                            <i class="far fa-clock text-secondary fs-4  rounded-circle p-2 me-2"></i>
+                            Memories
+                        </a>
+                        <a class="my-2 text-decoration-none text-dark t">
+                            <i class="fas fa-bookmark text-primary fs-4  rounded-circle p-2 me-2"></i>
+                            Saved
+                        </a>
+                        <a class="my-2 text-decoration-none text-dark ">
+                            <i class="far fa-calendar-plus text-warning fs-4  rounded-circle p-2 me-2"></i>
+                            Event
+                        </a>
+                        <a class="my-2 text-decoration-none text-secondary fw-bold "><i
+                                class="fas fa-chevron-down text-secondary fs-6  rounded-circle p-2 me-3"></i>See
+                            More
+                        </a>
+                    </div>
+                    <hr>
+                    <div>
+                        <h6 class="text-secondary my-4">Your Shortcuts</h6>
+
+                        <div class="d-flex align-items-center my- ">
+                            <img src="images/shortcut/shortcut-1.png" width="50px" class="rounded">
+                            <p class="text-center fw-bold m-3">Web Developers</p>
+                        </div>
+                        <div class="d-flex align-items-center my-4 ">
+                            <img src="images/shortcut/shortcut-2.png" width="50px" class="rounded">
+                            <p class="text-center fw-bold m-3">Web Design Course</p>
+                        </div>
+                        <div class="d-flex align-items-center my-4 ">
+                            <img src="images/shortcut/shortcut-3.png" width="50px" class="rounded">
+                            <p class="text-center fw-bold m-3">Full Stack Development</p>
+                        </div>
+                        <div class="d-flex align-items-center my-4 ">
+                            <img src="images/shortcut/shortcut-4.png" width="50px" class="rounded">
+                            <p class="text-center fw-bold m-3">Website Experts</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --------main content -------- -->
+
+                <div class=" col-lg-6 px-2">
+
+                    <div class="mt-4">
+                        <div class="container">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 gx-5">
+                                <div class="col-lg-2 position-relative me-3 ">
+                                    <div class="photo ">
+                                        <img src="images/status/status-1.png" width="98px" height="170px"
+                                            class="rounded">
+                                    </div>
+                                    <div class="photo-detail position-absolute top-50 start-50 ">
+                                        <img src="images/upload.png" width="40px" height="40px" class="rounded-circle">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 position-relative me-3 ">
+                                    <div class="photo ">
+                                        <img src="images/status/status-2.png" width="98px" height="170px"
+                                            class="rounded">
+                                    </div>
+                                    <div class="photo-detail position-absolute top-0 left-10 ">
+                                        <img src="images/member/member-1.png" width="40px" height="40px"
+                                            class="border-4 border border-primary rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 position-relative me-3">
+                                    <div class="photo ">
+                                        <img src="images/status/status-5.png" width="98px" height="170px"
+                                            class="rounded">
+                                    </div>
+                                    <div class="photo-detail position-absolute top-0 left-10 ">
+                                        <img src="images/member/member-4.png" width="40px" height="40px"
+                                            class="border-4 border border-primary rounded-circle">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 position-relative me-3">
+                                    <div class="photo ">
+                                        <img src="images/status/status-3.png" width="98px" height="170px"
+                                            class="rounded">
+                                    </div>
+                                    <div class="photo-detail position-absolute top-0 left-10 ">
+                                        <img src="images/member/member-2.png" width="40px" height="40px"
+                                            class="border-4 border border-primary rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 position-relative me-3">
+                                    <div class="photo ">
+                                        <img src="images/status/status-4.png" width="98px" height="170px"
+                                            class="rounded">
+                                    </div>
+                                    <div class="photo-detail position-absolute top-0 left-10 ">
+                                        <img src="images/member/member-3.png" width="40px" height="40px"
+                                            class="border-4 border border-primary rounded-circle">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container bg-light my-4 rounded shadow-sm">
+                        <div class="row border-bottom">
+
+                            <div class="col-lg-1 col-md-1 col-4 my-2 p-0">
+                                <img src="images/profile-pic.png" width="50px" height="50px" class="rounded-circle">
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-8  my-2 p-0 ms-2">
+                                <h6 class="m-0">Remo-D-Souza</h6>
+                                <div class="d-flex flex-row align-items-center mt-2">
+                                    <i class="fas fa-globe-asia fs-6 text-secondary me-2"></i>
+                                    <small>
+                                        <p class="m-0 text-secondary">Public</p>
+                                    </small>
+                                    <i class="fas fa-sort-down fs-6 text-secondary ms-2 mb-2"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 my-4">
+                                <small>
+                                    <p class="text-secondary fw-light">What's on your mind Remo?</p>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="row p-4">
+                            <div class="col-lg-4 d-flex align-items-center">
+                                <img src="images/live-video.png" width="20px" class="me-2">
+                                <small>
+                                    <p class="text-secondary m-0">Live Video</p>
+                                </small>
+                            </div>
+                            <div class="col-lg-4 d-flex align-items-center">
+                                <img src="images/photo.png" width="20px" class="me-2">
+                                <small>
+                                    <p class="text-secondary m-0">Photo</p>
+                                </small>
+                            </div>
+                            <div class="col-lg-4 d-flex align-items-center">
+                                <img src="images/feeling.png" width="20px" class="me-2">
+                                <small>
+                                    <p class="text-secondary m-0">Feeling/Activity</p>
+                                </small>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container bg-light rounded p-2 shadow-sm">
+                        <div class="row p-2">
+                            <div class="col-lg-1 col-md-1 col-4 m-2 p-0 ">
+                                <img src="images/profile-pic.png" width="50px" height="50px" class="rounded-circle">
+                            </div>
+
+                            <div class="col-lg-9 col-md-8 col-8  m-2 p-0 ms-2">
+                                <h6 class="m-0">Remo-D-Souza</h6>
+                                <small>
+                                    <p class="m-0 text-secondary">july 22 at 2:00</p>
+                                </small>
+                            </div>
+                            <div class="col-lg-1 p-0 m-2">
+                                <i class="fas fa-ellipsis-h text-secondary "></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p>PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads from around the
+                                world will compete against each other to help the Gamers Without Borders mission to
+                                distribute the vaccine to underdeveloped countries and communities that are at risk of
+                                being
+                                forgotten and are continuing to suffer in comparison to other global superpowers who are
+                                moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                                <span class="text-secondary">… See more</span>
+                            </p>
+                            <a href="" class="text-secondary">see translation</a>
+                            <img src="images/feed/feed-image-1.png" class="w-100 rounded my-3">
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between px-3 border-bottom  ">
+                            <div>
+                                <i class="fas fa-thumbs-up me-1 fs-4 text-primary"></i>
+                                <i class="fab fa-gratipay fs-4 text-danger"></i>
+                            </div>
+                            <p class="text-secondary">12k comment 900 shares</p>
+                        </div>
+
+                        <div class=" d-flex align-items-center justify-content-between px-5">
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-thumbs-up me-2 fs-5"></i>
+                                <p class="m-0 mt-2 fs-6">Like</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-comment-alt me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Comment</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-share-square me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Share</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container bg-light rounded p-2 shadow-sm">
+                        <div class="row p-2">
+                            <div class="col-lg-1 col-md-1 col-4 m-2 p-0 ">
+                                <img src="images/profile-pic.png" width="50px" height="50px" class="rounded-circle">
+                            </div>
+
+                            <div class="col-lg-9 col-md-8 col-8  m-2 p-0 ms-2">
+                                <h6 class="m-0">Remo-D-Souza</h6>
+                                <small>
+                                    <p class="m-0 text-secondary">july 22 at 2:00</p>
+                                </small>
+                            </div>
+                            <div class="col-lg-1 p-0 m-2">
+                                <i class="fas fa-ellipsis-h text-secondary "></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p>PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads from around the
+                                world will compete against each other to help the Gamers Without Borders mission to
+                                distribute the vaccine to underdeveloped countries and communities that are at risk of
+                                being
+                                forgotten and are continuing to suffer in comparison to other global superpowers who are
+                                moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                                <span class="text-secondary">… See more</span>
+                            </p>
+                            <a href="" class="text-secondary">see translation</a>
+                            <img src="images/feed/feed-image-2.png" class="w-100 rounded my-3">
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between px-3 border-bottom  ">
+                            <div>
+                                <i class="fas fa-thumbs-up me-1 fs-4 text-primary"></i>
+                                <i class="fab fa-gratipay fs-4 text-danger"></i>
+                            </div>
+                            <p class="text-secondary">12k comment 900 shares</p>
+                        </div>
+
+                        <div class=" d-flex align-items-center justify-content-between px-5">
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-thumbs-up me-2 fs-5"></i>
+                                <p class="m-0 mt-2 fs-6">Like</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-comment-alt me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Comment</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-share-square me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Share</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container bg-light rounded p-2 shadow-sm">
+                        <div class="row p-2">
+                            <div class="col-lg-1 col-md-1 col-4 m-2 p-0 ">
+                                <img src="images/profile-pic.png" width="50px" height="50px" class="rounded-circle">
+                            </div>
+
+                            <div class="col-lg-9 col-md-8 col-8  m-2 p-0 ms-2">
+                                <h6 class="m-0">Remo-D-Souza</h6>
+                                <small>
+                                    <p class="m-0 text-secondary">july 22 at 2:00</p>
+                                </small>
+                            </div>
+                            <div class="col-lg-1 p-0 m-2">
+                                <i class="fas fa-ellipsis-h text-secondary "></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p>PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads from around the
+                                world will compete against each other to help the Gamers Without Borders mission to
+                                distribute the vaccine to underdeveloped countries and communities that are at risk of
+                                being
+                                forgotten and are continuing to suffer in comparison to other global superpowers who are
+                                moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                                <span class="text-secondary">… See more</span>
+                            </p>
+                            <a href="" class="text-secondary">see translation</a>
+                            <img src="images/feed/feed-image-3.png" class="w-100 rounded my-3">
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between px-3 border-bottom  ">
+                            <div>
+                                <i class="fas fa-thumbs-up me-1 fs-4 text-primary"></i>
+                                <i class="fab fa-gratipay fs-4 text-danger"></i>
+                            </div>
+                            <p class="text-secondary">12k comment 900 shares</p>
+                        </div>
+
+                        <div class=" d-flex align-items-center justify-content-between px-5">
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-thumbs-up me-2 fs-5"></i>
+                                <p class="m-0 mt-2 fs-6">Like</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-comment-alt me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Comment</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-share-square me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Share</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container bg-light rounded p-2 shadow-sm">
+                        <div class="row p-2">
+                            <div class="col-lg-1 col-md-1 col-4 m-2 p-0 ">
+                                <img src="images/profile-pic.png" width="50px" height="50px" class="rounded-circle">
+                            </div>
+
+                            <div class="col-lg-9 col-md-8 col-8  m-2 p-0 ms-2">
+                                <h6 class="m-0">Remo-D-Souza</h6>
+                                <small>
+                                    <p class="m-0 text-secondary">july 22 at 2:00</p>
+                                </small>
+                            </div>
+                            <div class="col-lg-1 p-0 m-2">
+                                <i class="fas fa-ellipsis-h text-secondary "></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p>PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads from around the
+                                world will compete against each other to help the Gamers Without Borders mission to
+                                distribute the vaccine to underdeveloped countries and communities that are at risk of
+                                being
+                                forgotten and are continuing to suffer in comparison to other global superpowers who are
+                                moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                                <span class="text-secondary">… See more</span>
+                            </p>
+                            <a href="" class="text-secondary">see translation</a>
+                            <img src="images/feed/feed-image-4.png" class="w-100 rounded my-3">
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between px-3 border-bottom  ">
+                            <div>
+                                <i class="fas fa-thumbs-up me-1 fs-4 text-primary"></i>
+                                <i class="fab fa-gratipay fs-4 text-danger"></i>
+                            </div>
+                            <p class="text-secondary">12k comment 900 shares</p>
+                        </div>
+
+                        <div class=" d-flex align-items-center justify-content-between px-5">
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-thumbs-up me-2 fs-5"></i>
+                                <p class="m-0 mt-2 fs-6">Like</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-comment-alt me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Comment</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-share-square me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Share</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container bg-light rounded p-2 shadow-sm">
+                        <div class="row p-2">
+                            <div class="col-lg-1 col-md-1 col-4 m-2 p-0 ">
+                                <img src="images/profile-pic.png" width="50px" height="50px" class="rounded-circle">
+                            </div>
+
+                            <div class="col-lg-9 col-md-8 col-8  m-2 p-0 ms-2">
+                                <h6 class="m-0">Remo-D-Souza</h6>
+                                <small>
+                                    <p class="m-0 text-secondary">july 22 at 2:00</p>
+                                </small>
+                            </div>
+                            <div class="col-lg-1 p-0 m-2">
+                                <i class="fas fa-ellipsis-h text-secondary "></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p>PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads from around the
+                                world will compete against each other to help the Gamers Without Borders mission to
+                                distribute the vaccine to underdeveloped countries and communities that are at risk of
+                                being
+                                forgotten and are continuing to suffer in comparison to other global superpowers who are
+                                moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                                <span class="text-secondary">… See more</span>
+                            </p>
+                            <a href="" class="text-secondary">see translation</a>
+                            <img src="images/feed/feed-image-5.png" class="w-100 rounded my-3">
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between px-3 border-bottom  ">
+                            <div>
+                                <i class="fas fa-thumbs-up me-1 fs-4 text-primary"></i>
+                                <i class="fab fa-gratipay fs-4 text-danger"></i>
+                            </div>
+                            <p class="text-secondary">12k comment 900 shares</p>
+                        </div>
+
+                        <div class=" d-flex align-items-center justify-content-between px-5">
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-thumbs-up me-2 fs-5"></i>
+                                <p class="m-0 mt-2 fs-6">Like</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-comment-alt me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Comment</p>
+                            </div>
+
+                            <div class="d-flex align-items-center text-secondary ">
+                                <i class="fas fa-share-square me-2 fs-5"></i>
+                                <p class="m-0  fs-6">Share</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ------------right side ------ -->
+
+                <div class=" col-lg-3 ">
+                    <div class="ms-1 mt-2 me-2 bg-light rounded ">
+
+                        <div class="p-2 border-bottom">
+                            <h6 class="text-secondary ">Sponsered</h6>
+                            <div class="row g-0 align-items-center ">
+                                <div class="col-md-4">
+                                    <img src="images/shortcut/shortcut-2.png" class="img-fluid rounded">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+
+                                        <p class="card-text fw-bold">MSc Sustainable Engineering: Energy </p>
+                                        <p class="card-text text-muted">
+                                            msc.sustain</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="images/shortcut/shortcut-3.png" class="img-fluid rounded" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+
+                                        <p class="card-text fw-bold">Online Counsiling On Demand
+                                        </p>
+                                        <p class="card-text text-muted">
+                                            online.course</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="px-2 p">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h6 class="text-secondary my-2">Contacts</h6>
+                                <div>
+                                    <i class="fas fa-video mx-2 text-secondary"></i>
+                                    <i class="fas fa-search mx-2 text-secondary"></i>
+                                    <i class="fas fa-ellipsis-h mx-2 text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-2">
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-2.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Leonel Messi</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-1.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Neymar Jr</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-3.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Cristiano Ronaldo</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-4.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Paulo Dybala</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-5.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Mesut Özil</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-6.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Mauro Icardi</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-7.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Ángel Di María</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-8.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold ">Kylian Mbappé</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-9.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Mohamed Salah</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-10.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Harry Kane</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-11.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Kevin De Bruyne</p>
+                            </div>
+                            <div class="d-flex align-items-center my-4">
+                                <img src="images/players/player-12.png" width="50px" height="50px"
+                                    class="rounded-circle border border-primary border-4">
+                                <p class="m-3 fw-bold">Philippe Coutinho</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- -------------footer ------------ -->
+    <footer class="m-4">
+        <small>
+            <p class="text-center text-secondary "> &copy; Copyright 2021 - Facebook</p>
+        </small>
+    </footer>
+    <!-- java script  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
